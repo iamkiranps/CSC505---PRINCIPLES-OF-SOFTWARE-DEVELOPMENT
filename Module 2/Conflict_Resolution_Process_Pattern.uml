@@ -1,0 +1,44 @@
+@startuml
+!define RECTANGLE class
+!define USER actor
+
+title Conflict Resolution Process Pattern
+
+allowmixing
+
+RECTANGLE Stakeholder1 {
+  +identifyConflicts()
+  +analyzePrioritize()
+  +communicateCollaborate()
+}
+
+RECTANGLE Stakeholder2 {
+  +identifyConflicts()
+  +analyzePrioritize()
+  +communicateCollaborate()
+}
+
+RECTANGLE Mediator {
+  +mediateNegotiate()
+}
+
+USER User
+
+User --> Stakeholder1: Input specification
+User --> Stakeholder2: Input specification
+
+Stakeholder1 --> Mediator: Request mediation
+Stakeholder2 --> Mediator: Request mediation
+
+Mediator --> Stakeholder1: Facilitate negotiation
+Mediator --> Stakeholder2: Facilitate negotiation
+
+Stakeholder1 --> Stakeholder1: Identify conflicts
+Stakeholder1 --> Stakeholder1: Analyze and prioritize
+Stakeholder1 --> Stakeholder1: Communicate and collaborate
+
+Stakeholder2 --> Stakeholder2: Identify conflicts
+Stakeholder2 --> Stakeholder2: Analyze and prioritize
+Stakeholder2 --> Stakeholder2: Communicate and collaborate
+
+@enduml

@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" contentStyleType="text/css" height="614px" preserveAspectRatio="none" style="width:1062px;height:614px;background:#FFFFFF;" version="1.1" viewBox="0 0 1062 614" width="1062px" zoomAndPan="magnify"><defs/><g><rect fill="none" height="26.2969" id="_title" style="stroke:none;stroke-width:1.0;" width="290" x="379" y="5"/><text fill="#000000" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="280" x="384" y="22.9951">Conflict Resolution Process Pattern</text><!--MD5=[0510db1eaa038c1d2243067210c0dbc2]
+class Stakeholder1--><g id="elem_Stakeholder1"><rect codeLine="8" fill="#F1F1F1" height="96.8906" id="Stakeholder1" rx="2.5" ry="2.5" style="stroke:#181818;stroke-width:0.5;" width="208" x="7" y="195.7969"/><ellipse cx="60.75" cy="211.7969" fill="#ADD1B2" rx="11" ry="11" style="stroke:#181818;stroke-width:1.0;"/><path d="M63.7188,217.4375 Q63.1406,217.7344 62.5,217.875 Q61.8594,218.0313 61.1563,218.0313 Q58.6563,218.0313 57.3281,216.3906 Q56.0156,214.7344 56.0156,211.6094 Q56.0156,208.4844 57.3281,206.8281 Q58.6563,205.1719 61.1563,205.1719 Q61.8594,205.1719 62.5,205.3281 Q63.1563,205.4844 63.7188,205.7813 L63.7188,208.5 Q63.0938,207.9219 62.5,207.6563 Q61.9063,207.375 61.2813,207.375 Q59.9375,207.375 59.25,208.4531 Q58.5625,209.5156 58.5625,211.6094 Q58.5625,213.7031 59.25,214.7813 Q59.9375,215.8438 61.2813,215.8438 Q61.9063,215.8438 62.5,215.5781 Q63.0938,215.2969 63.7188,214.7188 L63.7188,217.4375 Z " fill="#000000"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="92" x="81.25" y="216.6436">Stakeholder1</text><line style="stroke:#181818;stroke-width:0.5;" x1="8" x2="214" y1="227.7969" y2="227.7969"/><line style="stroke:#181818;stroke-width:0.5;" x1="8" x2="214" y1="235.7969" y2="235.7969"/><ellipse cx="18" cy="249.4453" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="118" x="27" y="252.792">identifyConflicts()</text><ellipse cx="18" cy="265.7422" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="121" x="27" y="269.0889">analyzePrioritize()</text><ellipse cx="18" cy="282.0391" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="182" x="27" y="285.3857">communicateCollaborate()</text></g><!--MD5=[1413f5515a324c8100a70ebdaa0e9003]
+class Stakeholder2--><g id="elem_Stakeholder2"><rect codeLine="14" fill="#F1F1F1" height="96.8906" id="Stakeholder2" rx="2.5" ry="2.5" style="stroke:#181818;stroke-width:0.5;" width="208" x="344" y="510.7969"/><ellipse cx="397.75" cy="526.7969" fill="#ADD1B2" rx="11" ry="11" style="stroke:#181818;stroke-width:1.0;"/><path d="M400.7188,532.4375 Q400.1406,532.7344 399.5,532.875 Q398.8594,533.0313 398.1563,533.0313 Q395.6563,533.0313 394.3281,531.3906 Q393.0156,529.7344 393.0156,526.6094 Q393.0156,523.4844 394.3281,521.8281 Q395.6563,520.1719 398.1563,520.1719 Q398.8594,520.1719 399.5,520.3281 Q400.1563,520.4844 400.7188,520.7813 L400.7188,523.5 Q400.0938,522.9219 399.5,522.6563 Q398.9063,522.375 398.2813,522.375 Q396.9375,522.375 396.25,523.4531 Q395.5625,524.5156 395.5625,526.6094 Q395.5625,528.7031 396.25,529.7813 Q396.9375,530.8438 398.2813,530.8438 Q398.9063,530.8438 399.5,530.5781 Q400.0938,530.2969 400.7188,529.7188 L400.7188,532.4375 Z " fill="#000000"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="92" x="418.25" y="531.6436">Stakeholder2</text><line style="stroke:#181818;stroke-width:0.5;" x1="345" x2="551" y1="542.7969" y2="542.7969"/><line style="stroke:#181818;stroke-width:0.5;" x1="345" x2="551" y1="550.7969" y2="550.7969"/><ellipse cx="355" cy="564.4453" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="118" x="364" y="567.792">identifyConflicts()</text><ellipse cx="355" cy="580.7422" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="121" x="364" y="584.0889">analyzePrioritize()</text><ellipse cx="355" cy="597.0391" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="182" x="364" y="600.3857">communicateCollaborate()</text></g><!--MD5=[7bc5716ff34e8b57d97376709b158217]
+class Mediator--><g id="elem_Mediator"><rect codeLine="20" fill="#F1F1F1" height="64.2969" id="Mediator" rx="2.5" ry="2.5" style="stroke:#181818;stroke-width:0.5;" width="159" x="193.5" y="369.7969"/><ellipse cx="238.75" cy="385.7969" fill="#ADD1B2" rx="11" ry="11" style="stroke:#181818;stroke-width:1.0;"/><path d="M241.7188,391.4375 Q241.1406,391.7344 240.5,391.875 Q239.8594,392.0313 239.1563,392.0313 Q236.6563,392.0313 235.3281,390.3906 Q234.0156,388.7344 234.0156,385.6094 Q234.0156,382.4844 235.3281,380.8281 Q236.6563,379.1719 239.1563,379.1719 Q239.8594,379.1719 240.5,379.3281 Q241.1563,379.4844 241.7188,379.7813 L241.7188,382.5 Q241.0938,381.9219 240.5,381.6563 Q239.9063,381.375 239.2813,381.375 Q237.9375,381.375 237.25,382.4531 Q236.5625,383.5156 236.5625,385.6094 Q236.5625,387.7031 237.25,388.7813 Q237.9375,389.8438 239.2813,389.8438 Q239.9063,389.8438 240.5,389.5781 Q241.0938,389.2969 241.7188,388.7188 L241.7188,391.4375 Z " fill="#000000"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="60" x="259.25" y="390.6436">Mediator</text><line style="stroke:#181818;stroke-width:0.5;" x1="194.5" x2="351.5" y1="401.7969" y2="401.7969"/><line style="stroke:#181818;stroke-width:0.5;" x1="194.5" x2="351.5" y1="409.7969" y2="409.7969"/><ellipse cx="204.5" cy="423.4453" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="133" x="213.5" y="426.792">mediateNegotiate()</text></g><!--MD5=[fee662a292a0353a69bd162820bae93b]
+entity User--><g id="elem_User"><ellipse cx="451" cy="51.2969" fill="#F1F1F1" rx="8" ry="8" style="stroke:#181818;stroke-width:0.5;"/><path d="M451,59.2969 L451,86.2969 M438,67.2969 L464,67.2969 M451,86.2969 L438,101.2969 M451,86.2969 L464,101.2969 " fill="none" style="stroke:#181818;stroke-width:0.5;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="32" x="435" y="115.792">User</text></g><!--MD5=[23b070a85b44fe26eaa5567335f7ec52]
+link User to Stakeholder1--><g id="link_User_Stakeholder1"><path codeLine="26" d="M434.6,89.5869 C395.58,108.1169 294.59,156.0869 215.72,193.5569 " fill="none" id="User-to-Stakeholder1" style="stroke:#181818;stroke-width:1.0;"/><polygon fill="#181818" points="211.03,195.7869,220.8751,195.5156,215.5414,193.6311,217.4259,188.2974,211.03,195.7869" style="stroke:#181818;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="115" x="303" y="161.8638">Input specification</text></g><!--MD5=[3ba3accbd1f4ad29a6fd8725f5d080e2]
+link User to Stakeholder2--><g id="link_User_Stakeholder2"><path codeLine="27" d="M467.31,81.9869 C520.02,83.6069 686.29,96.6569 755,195.7969 C837.21,314.4169 663.56,440.2569 545.44,508.0169 " fill="none" id="User-to-Stakeholder2" style="stroke:#181818;stroke-width:1.0;"/><polygon fill="#181818" points="540.92,510.5969,550.718,509.5977,545.2595,508.1131,546.744,502.6545,540.92,510.5969" style="stroke:#181818;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="115" x="759" y="335.8638">Input specification</text></g><!--MD5=[1d99a5eeda6966bba6d613142de6fe30]
+link Stakeholder1 to Mediator--><g id="link_Stakeholder1_Mediator"><path codeLine="29" d="M98.57,292.7969 C97.02,308.9569 98.62,326.3269 108,339.7969 C126.47,366.3169 157.87,381.3369 188.36,389.8369 " fill="none" id="Stakeholder1-to-Mediator" style="stroke:#181818;stroke-width:1.0;"/><polygon fill="#181818" points="193.24,391.1369,185.5723,384.9558,188.4084,389.8503,183.5138,392.6864,193.24,391.1369" style="stroke:#181818;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="120" x="109" y="335.8638">Request mediation</text></g><!--MD5=[a4969c7b0407ed44ac969c629785c918]
+link Mediator to Stakeholder1--><g id="link_Mediator_Stakeholder1"><path codeLine="32" d="M262,369.5469 C255.53,354.2369 246.2,336.2569 234,322.7969 C225.25,313.1369 215.02,304.2169 204.27,296.1369 " fill="none" id="Mediator-to-Stakeholder1" style="stroke:#181818;stroke-width:1.0;"/><polygon fill="#181818" points="199.97,292.9669,204.8386,301.5282,203.9938,295.9348,209.5873,295.0901,199.97,292.9669" style="stroke:#181818;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="133" x="247" y="335.8638">Facilitate negotiation</text></g><!--MD5=[a5502bdf0275ff117f656d4756cc63ae]
+link Stakeholder2 to Mediator--><g id="link_Stakeholder2_Mediator"><path codeLine="30" d="M436.15,510.4669 C430.19,494.0869 421.48,476.6669 409,463.7969 C394.71,449.0769 376.23,437.6169 357.53,428.8169 " fill="none" id="Stakeholder2-to-Mediator" style="stroke:#181818;stroke-width:1.0;"/><polygon fill="#181818" points="352.77,426.6369,359.289,434.0195,357.3164,428.7177,362.6183,426.7452,352.77,426.6369" style="stroke:#181818;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="120" x="421" y="476.8638">Request mediation</text></g><!--MD5=[13a192e51b5031a6e05d0de5257f8945]
+link Mediator to Stakeholder2--><g id="link_Mediator_Stakeholder2"><path codeLine="33" d="M261.55,433.9269 C257.98,449.1969 257,467.1869 266,480.7969 C283.01,506.5269 310.48,523.7369 338.98,535.2469 " fill="none" id="Mediator-to-Stakeholder2" style="stroke:#181818;stroke-width:1.0;"/><polygon fill="#181818" points="343.94,537.1869,337.0245,530.1743,339.2859,535.3595,334.1007,537.6209,343.94,537.1869" style="stroke:#181818;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="133" x="267" y="476.8638">Facilitate negotiation</text></g><!--MD5=[909250f41c4d7fc9cdb984fec852a87d]
+link Stakeholder1 to Stakeholder1--><g id="link_Stakeholder1_Stakeholder1"><path codeLine="35" d="M215.26,239.1569 C235.58,239.7569 250,241.4669 250,244.2969 C250,246.8769 237.95,248.5369 220.36,249.2569 " fill="none" id="Stakeholder1-to-Stakeholder1" style="stroke:#181818;stroke-width:1.0;"/><polygon fill="#181818" points="215.26,249.4369,224.3918,253.1261,220.2571,249.2655,224.1177,245.1308,215.26,249.4369" style="stroke:#181818;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="102" x="256" y="248.8638">Identify conflicts</text></g><!--MD5=[909250f41c4d7fc9cdb984fec852a87d]
+link Stakeholder1 to Stakeholder1--><g id="link_Stakeholder1_Stakeholder1"><path codeLine="36" d="M215.2,234.2569 C286.87,231.9369 364,235.2869 364,244.2969 C364,253.0969 290.45,256.4969 220.25,254.4869 " fill="none" id="Stakeholder1-to-Stakeholder1-1" style="stroke:#181818;stroke-width:1.0;"/><polygon fill="#181818" points="215.2,254.3369,224.0821,258.5923,220.198,254.4797,224.3106,250.5955,215.2,254.3369" style="stroke:#181818;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="137" x="370" y="248.8638">Analyze and prioritize</text></g><!--MD5=[909250f41c4d7fc9cdb984fec852a87d]
+link Stakeholder1 to Stakeholder1--><g id="link_Stakeholder1_Stakeholder1"><path codeLine="37" d="M215.4,231.4569 C338.03,224.4169 513,228.6969 513,244.2969 C513,259.6869 342.79,264.0569 220.46,257.4169 " fill="none" id="Stakeholder1-to-Stakeholder1-2" style="stroke:#181818;stroke-width:1.0;"/><polygon fill="#181818" points="215.4,257.1369,224.1571,261.6438,220.3919,257.4221,224.6135,253.6568,215.4,257.1369" style="stroke:#181818;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="193" x="519" y="248.8638">Communicate and collaborate</text></g><!--MD5=[da5cba771e1cf72dadb9c1eace45a5e4]
+link Stakeholder2 to Stakeholder2--><g id="link_Stakeholder2_Stakeholder2"><path codeLine="39" d="M552.26,554.1569 C572.58,554.7569 587,556.4669 587,559.2969 C587,561.8769 574.95,563.5369 557.36,564.2569 " fill="none" id="Stakeholder2-to-Stakeholder2" style="stroke:#181818;stroke-width:1.0;"/><polygon fill="#181818" points="552.26,564.4369,561.3918,568.1261,557.2571,564.2655,561.1177,560.1308,552.26,564.4369" style="stroke:#181818;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="102" x="593" y="563.8638">Identify conflicts</text></g><!--MD5=[da5cba771e1cf72dadb9c1eace45a5e4]
+link Stakeholder2 to Stakeholder2--><g id="link_Stakeholder2_Stakeholder2"><path codeLine="40" d="M552.2,549.2569 C623.87,546.9369 701,550.2869 701,559.2969 C701,568.0969 627.45,571.4969 557.25,569.4869 " fill="none" id="Stakeholder2-to-Stakeholder2-1" style="stroke:#181818;stroke-width:1.0;"/><polygon fill="#181818" points="552.2,569.3369,561.0821,573.5923,557.198,569.4797,561.3106,565.5955,552.2,569.3369" style="stroke:#181818;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="137" x="707" y="563.8638">Analyze and prioritize</text></g><!--MD5=[da5cba771e1cf72dadb9c1eace45a5e4]
+link Stakeholder2 to Stakeholder2--><g id="link_Stakeholder2_Stakeholder2"><path codeLine="41" d="M552.4,546.4569 C675.03,539.4169 850,543.6969 850,559.2969 C850,574.6869 679.79,579.0569 557.46,572.4169 " fill="none" id="Stakeholder2-to-Stakeholder2-2" style="stroke:#181818;stroke-width:1.0;"/><polygon fill="#181818" points="552.4,572.1369,561.1571,576.6438,557.3919,572.4221,561.6135,568.6568,552.4,572.1369" style="stroke:#181818;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="193" x="856" y="563.8638">Communicate and collaborate</text></g><!--MD5=[32740ae5b734769d0d0996a8e5e7f5c0]
+@startuml
+!define RECTANGLE class
+!define USER actor
+
+title Conflict Resolution Process Pattern
+
+allowmixing
+
+RECTANGLE Stakeholder1 {
+  +identifyConflicts()
+  +analyzePrioritize()
+  +communicateCollaborate()
+}
+
+RECTANGLE Stakeholder2 {
+  +identifyConflicts()
+  +analyzePrioritize()
+  +communicateCollaborate()
+}
+
+RECTANGLE Mediator {
+  +mediateNegotiate()
+}
+
+USER User
+
+User - -> Stakeholder1: Input specification
+User - -> Stakeholder2: Input specification
+
+Stakeholder1 - -> Mediator: Request mediation
+Stakeholder2 - -> Mediator: Request mediation
+
+Mediator - -> Stakeholder1: Facilitate negotiation
+Mediator - -> Stakeholder2: Facilitate negotiation
+
+Stakeholder1 - -> Stakeholder1: Identify conflicts
+Stakeholder1 - -> Stakeholder1: Analyze and prioritize
+Stakeholder1 - -> Stakeholder1: Communicate and collaborate
+
+Stakeholder2 - -> Stakeholder2: Identify conflicts
+Stakeholder2 - -> Stakeholder2: Analyze and prioritize
+Stakeholder2 - -> Stakeholder2: Communicate and collaborate
+@enduml
+
+@startuml
+
+title Conflict Resolution Process Pattern
+
+allowmixing
+
+class Stakeholder1 {
+  +identifyConflicts()
+  +analyzePrioritize()
+  +communicateCollaborate()
+}
+
+class Stakeholder2 {
+  +identifyConflicts()
+  +analyzePrioritize()
+  +communicateCollaborate()
+}
+
+class Mediator {
+  +mediateNegotiate()
+}
+
+actor User
+
+User - -> Stakeholder1: Input specification
+User - -> Stakeholder2: Input specification
+
+Stakeholder1 - -> Mediator: Request mediation
+Stakeholder2 - -> Mediator: Request mediation
+
+Mediator - -> Stakeholder1: Facilitate negotiation
+Mediator - -> Stakeholder2: Facilitate negotiation
+
+Stakeholder1 - -> Stakeholder1: Identify conflicts
+Stakeholder1 - -> Stakeholder1: Analyze and prioritize
+Stakeholder1 - -> Stakeholder1: Communicate and collaborate
+
+Stakeholder2 - -> Stakeholder2: Identify conflicts
+Stakeholder2 - -> Stakeholder2: Analyze and prioritize
+Stakeholder2 - -> Stakeholder2: Communicate and collaborate
+@enduml
+
+PlantUML version 1.2022.7(Mon Aug 22 17:01:30 UTC 2022)
+(GPL source distribution)
+Java Runtime: OpenJDK Runtime Environment
+JVM: OpenJDK 64-Bit Server VM
+Default Encoding: UTF-8
+Language: en
+Country: null
+--></g></svg>

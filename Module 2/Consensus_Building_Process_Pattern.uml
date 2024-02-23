@@ -1,0 +1,30 @@
+@startuml
+!define RECTANGLE class
+!define USER actor
+title Consensus Building Process Pattern
+allowmixing
+RECTANGLE Stakeholder1 {
+  +inputSpecification(): Specification
+}
+RECTANGLE Stakeholder2 {
+  +inputSpecification(): Specification
+}
+RECTANGLE Mediator {
+  +mediateConflict(spec1: Specification, spec2: Specification): Specification
+}
+USER User
+User --> Stakeholder1: Requests specification input
+User --> Stakeholder2: Requests specification input
+Stakeholder1 --> User : Provides input
+Stakeholder2 --> User : Provides input
+User --> Mediator: Requests mediation
+Mediator --> Stakeholder1: Receives conflicting specifications
+Mediator --> Stakeholder2: Receives conflicting specifications
+Stakeholder1 --> Mediator: Discusses requirements
+Stakeholder2 --> Mediator: Discusses requirements
+Mediator --> Stakeholder1: Proposes compromise solutions
+Mediator --> Stakeholder2: Proposes compromise solutions
+Stakeholder1 --> Mediator: Evaluates and prioritizes solutions
+Stakeholder2 --> Mediator: Evaluates and prioritizes solutions
+Mediator --> User: Returns mediated specification
+@enduml
