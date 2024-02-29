@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" contentStyleType="text/css" height="580px" preserveAspectRatio="none" style="width:301px;height:580px;background:#FFFFFF;" version="1.1" viewBox="0 0 301 580" width="301px" zoomAndPan="magnify"><defs/><g><rect fill="none" height="26.2969" id="_title" style="stroke:none;stroke-width:1.0;" width="153" x="67" y="5"/><text fill="#000000" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="143" x="72" y="22.9951">Use Case Diagram</text><!--MD5=[4d40fcdfb6514d193e3146875e6656b5]
+cluster Mobile App--><g id="cluster_Mobile App"><rect fill="none" height="530" rx="2.5" ry="2.5" style="stroke:#181818;stroke-width:1.0;" width="213" x="82" y="44.2969"/><text fill="#000000" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="87" x="145" y="59.292">Mobile App</text></g><g id="elem_ViewShoppingLists"><ellipse cx="188.4128" cy="99.2794" fill="#F1F1F1" rx="87.9128" ry="19.9826" style="stroke:#181818;stroke-width:0.5;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="137" x="119.9128" y="102.1261">View Shopping Lists</text></g><g id="elem_AddShoppingList"><ellipse cx="188.288" cy="173.1545" fill="#F1F1F1" rx="82.288" ry="18.8576" style="stroke:#181818;stroke-width:0.5;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="124" x="125.4505" y="176.2807">Add Shopping List</text></g><g id="elem_EditShoppingList"><ellipse cx="188.3658" cy="246.07" fill="#F1F1F1" rx="81.8658" ry="18.7732" style="stroke:#181818;stroke-width:0.5;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="123" x="125.8805" y="249.2432">Edit Shopping List</text></g><g id="elem_DeleteShoppingList"><ellipse cx="188.5567" cy="321.3082" fill="#F1F1F1" rx="90.5567" ry="20.5113" style="stroke:#181818;stroke-width:0.5;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="143" x="117.0567" y="324.1549">Delete Shopping List</text></g><g id="elem_AddItem"><ellipse cx="188.4948" cy="394.1958" fill="#F1F1F1" rx="74.9948" ry="17.399" style="stroke:#181818;stroke-width:0.5;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="106" x="132.4948" y="397.9434">Add Item to List</text></g><g id="elem_EditItem"><ellipse cx="188.3343" cy="464.4637" fill="#F1F1F1" rx="73.8343" ry="17.1669" style="stroke:#181818;stroke-width:0.5;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="103" x="133.8343" y="468.2113">Edit Item in List</text></g><g id="elem_DeleteItem"><ellipse cx="188.6144" cy="537.2198" fill="#F1F1F1" rx="90.1144" ry="20.4229" style="stroke:#181818;stroke-width:0.5;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="142" x="117.6144" y="540.0664">Delete Item from List</text></g><!--MD5=[fee662a292a0353a69bd162820bae93b]
+entity User--><g id="elem_User"><ellipse cx="22" cy="291.7969" fill="#F1F1F1" rx="8" ry="8" style="stroke:#181818;stroke-width:0.5;"/><path d="M22,299.7969 L22,326.7969 M9,307.7969 L35,307.7969 M22,326.7969 L9,341.7969 M22,326.7969 L35,341.7969 " fill="none" style="stroke:#181818;stroke-width:0.5;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="32" x="6" y="356.292">User</text></g><!--MD5=[5e2395803ab578c84f5eb8b00fba881a]
+link User to ViewShoppingLists--><g id="link_User_ViewShoppingLists"><path d="M23.34,283.2369 C25.76,241.8069 35.92,176.1769 74,136.2969 C84.22,125.5869 97.58,117.9769 111.52,112.5669 " fill="none" id="User-to-ViewShoppingLists" style="stroke:#181818;stroke-width:1.0;"/><polygon fill="#181818" points="116.27,110.8169,106.4418,110.179,111.579,112.5474,109.2106,117.6846,116.27,110.8169" style="stroke:#181818;stroke-width:1.0;"/></g><!--MD5=[e2352b8a5485d7b8a2daa958ed12eb24]
+link User to AddShoppingList--><g id="link_User_AddShoppingList"><path d="M31.78,283.2469 C39.22,258.9769 52.26,228.5769 74,209.2969 C85.88,198.7669 100.85,191.3069 115.99,186.0369 " fill="none" id="User-to-AddShoppingList" style="stroke:#181818;stroke-width:1.0;"/><polygon fill="#181818" points="121.12,184.3269,111.3187,183.3605,116.3737,185.8994,113.8348,190.9545,121.12,184.3269" style="stroke:#181818;stroke-width:1.0;"/></g><!--MD5=[cb54759cd4a451e69db1a09034d59541]
+link User to EditShoppingList--><g id="link_User_EditShoppingList"><path d="M38.19,307.9069 C47.9,299.8869 61.06,289.9969 74,283.2969 C90.74,274.6269 109.91,267.4469 127.67,261.7969 " fill="none" id="User-to-EditShoppingList" style="stroke:#181818;stroke-width:1.0;"/><polygon fill="#181818" points="132.64,260.2469,122.8577,259.1034,127.8661,261.7334,125.2361,266.7417,132.64,260.2469" style="stroke:#181818;stroke-width:1.0;"/></g><!--MD5=[fc0ad767751bc59bb551b5db9ea16d72]
+link User to DeleteShoppingList--><g id="link_User_DeleteShoppingList"><path d="M38.18,321.2969 C51.29,321.2969 71.43,321.2969 92.71,321.2969 " fill="none" id="User-to-DeleteShoppingList" style="stroke:#181818;stroke-width:1.0;"/><polygon fill="#181818" points="97.85,321.2969,88.85,317.2969,92.85,321.2969,88.85,325.2969,97.85,321.2969" style="stroke:#181818;stroke-width:1.0;"/></g><!--MD5=[ae0faa56acaced90d8919eb5df9f20fb]
+link User to AddItem--><g id="link_User_AddItem"><path d="M38.16,334.7669 C47.85,342.8069 61,352.6969 74,359.2969 C91.31,368.0869 111.24,375.1469 129.52,380.5569 " fill="none" id="User-to-AddItem" style="stroke:#181818;stroke-width:1.0;"/><polygon fill="#181818" points="134.63,382.0369,127.11,375.6769,129.83,380.6369,124.87,383.3569,134.63,382.0369" style="stroke:#181818;stroke-width:1.0;"/></g><!--MD5=[7a52a5d76c116297dff4d9da9a46ab7a]
+link User to EditItem--><g id="link_User_EditItem"><path d="M32.49,359.3569 C40.12,382.5669 53.09,411.1569 74,429.2969 C87.2,440.7469 104.1,448.4469 120.8,453.6369 " fill="none" id="User-to-EditItem" style="stroke:#181818;stroke-width:1.0;"/><polygon fill="#181818" points="125.97,455.1569,118.4726,448.7702,121.175,453.7398,116.2054,456.4422,125.97,455.1569" style="stroke:#181818;stroke-width:1.0;"/></g><!--MD5=[ea67926bd4b12debd6c44e97dd3e8b4a]
+link User to DeleteItem--><g id="link_User_DeleteItem"><path d="M24.08,359.4469 C27.23,399.0969 38.08,460.5169 74,498.2969 C84.45,509.2869 98.13,517.1769 112.36,522.8469 " fill="none" id="User-to-DeleteItem" style="stroke:#181818;stroke-width:1.0;"/><polygon fill="#181818" points="117.2,524.6869,110.203,517.7556,112.5248,522.914,107.3665,525.2359,117.2,524.6869" style="stroke:#181818;stroke-width:1.0;"/></g><!--MD5=[5564b10c6e922e2530aed6e12533516d]
+@startuml
+title : Use Case Diagram
+
+left to right direction
+actor User as "User"
+rectangle "Mobile App" {
+  usecase "View Shopping Lists" as ViewShoppingLists
+  usecase "Add Shopping List" as AddShoppingList
+  usecase "Edit Shopping List" as EditShoppingList
+  usecase "Delete Shopping List" as DeleteShoppingList
+  usecase "Add Item to List" as AddItem
+  usecase "Edit Item in List" as EditItem
+  usecase "Delete Item from List" as DeleteItem
+
+  User - -> ViewShoppingLists
+  User - -> AddShoppingList
+  User - -> EditShoppingList
+  User - -> DeleteShoppingList
+  User - -> AddItem
+  User - -> EditItem
+  User - -> DeleteItem
+}
+@enduml
+
+PlantUML version 1.2022.7(Mon Aug 22 17:01:30 UTC 2022)
+(GPL source distribution)
+Java Runtime: OpenJDK Runtime Environment
+JVM: OpenJDK 64-Bit Server VM
+Default Encoding: UTF-8
+Language: en
+Country: null
+--></g></svg>

@@ -1,0 +1,23 @@
+@startuml
+title : Use Case Diagram
+
+left to right direction
+actor User as "User"
+rectangle "Mobile App" {
+  usecase "View Shopping Lists" as ViewShoppingLists
+  usecase "Add Shopping List" as AddShoppingList
+  usecase "Edit Shopping List" as EditShoppingList
+  usecase "Delete Shopping List" as DeleteShoppingList
+  usecase "Add Item to List" as AddItem
+  usecase "Edit Item in List" as EditItem
+  usecase "Delete Item from List" as DeleteItem
+
+  User --> ViewShoppingLists
+  User --> AddShoppingList
+  User --> EditShoppingList
+  User --> DeleteShoppingList
+  User --> AddItem
+  User --> EditItem
+  User --> DeleteItem
+}
+@enduml

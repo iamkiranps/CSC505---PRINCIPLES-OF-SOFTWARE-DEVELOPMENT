@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" contentStyleType="text/css" height="359px" preserveAspectRatio="none" style="width:466px;height:359px;background:#FFFFFF;" version="1.1" viewBox="0 0 466 359" width="466px" zoomAndPan="magnify"><defs/><g><rect fill="none" height="26.2969" id="_title" style="stroke:none;stroke-width:1.0;" width="170" x="141" y="5"/><text fill="#000000" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="160" x="146" y="22.9951">Component Diagram</text><!--MD5=[4d40fcdfb6514d193e3146875e6656b5]
+cluster Mobile App--><g id="cluster_Mobile App"><path d="M8.5,43.2969 L96.5,43.2969 A3.75,3.75 0 0 1 99,45.7969 L106,65.5938 L456.5,65.5938 A2.5,2.5 0 0 1 459,68.0938 L459,349.7969 A2.5,2.5 0 0 1 456.5,352.2969 L8.5,352.2969 A2.5,2.5 0 0 1 6,349.7969 L6,45.7969 A2.5,2.5 0 0 1 8.5,43.2969 " fill="none" style="stroke:#000000;stroke-width:1.5;"/><line style="stroke:#000000;stroke-width:1.5;" x1="6" x2="106" y1="65.5938" y2="65.5938"/><text fill="#000000" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="87" x="10" y="58.292">Mobile App</text></g><!--MD5=[9c626053e623f48c145be2aac1d12849]
+entity User Interface--><g id="elem_User Interface"><rect fill="#F1F1F1" height="46.2969" rx="2.5" ry="2.5" style="stroke:#181818;stroke-width:0.5;" width="136" x="166" y="78.2969"/><rect fill="#F1F1F1" height="10" style="stroke:#181818;stroke-width:0.5;" width="15" x="282" y="83.2969"/><rect fill="#F1F1F1" height="2" style="stroke:#181818;stroke-width:0.5;" width="4" x="280" y="85.2969"/><rect fill="#F1F1F1" height="2" style="stroke:#181818;stroke-width:0.5;" width="4" x="280" y="89.2969"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="96" x="181" y="111.292">User Interface</text></g><!--MD5=[abcb3fa64f9dc69a7870a071cf66bd5d]
+entity Shopping List Manager--><g id="elem_Shopping List Manager"><rect fill="#F1F1F1" height="46.2969" rx="2.5" ry="2.5" style="stroke:#181818;stroke-width:0.5;" width="197" x="135.5" y="184.2969"/><rect fill="#F1F1F1" height="10" style="stroke:#181818;stroke-width:0.5;" width="15" x="312.5" y="189.2969"/><rect fill="#F1F1F1" height="2" style="stroke:#181818;stroke-width:0.5;" width="4" x="310.5" y="191.2969"/><rect fill="#F1F1F1" height="2" style="stroke:#181818;stroke-width:0.5;" width="4" x="310.5" y="195.2969"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="157" x="150.5" y="217.292">Shopping List Manager</text></g><!--MD5=[3bc6b268de4538faa920993688c49e7b]
+entity Local Storage/Database--><g id="elem_Local Storage/Database"><rect fill="#F1F1F1" height="46.2969" rx="2.5" ry="2.5" style="stroke:#181818;stroke-width:0.5;" width="204" x="22" y="290.2969"/><rect fill="#F1F1F1" height="10" style="stroke:#181818;stroke-width:0.5;" width="15" x="206" y="295.2969"/><rect fill="#F1F1F1" height="2" style="stroke:#181818;stroke-width:0.5;" width="4" x="204" y="297.2969"/><rect fill="#F1F1F1" height="2" style="stroke:#181818;stroke-width:0.5;" width="4" x="204" y="301.2969"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="164" x="37" y="323.292">Local Storage/Database</text></g><!--MD5=[9ecd63d9332332ce3eea72c8d0c9bee0]
+entity External Integrations--><g id="elem_External Integrations"><rect fill="#F1F1F1" height="46.2969" rx="2.5" ry="2.5" style="stroke:#181818;stroke-width:0.5;" width="181" x="261.5" y="290.2969"/><rect fill="#F1F1F1" height="10" style="stroke:#181818;stroke-width:0.5;" width="15" x="422.5" y="295.2969"/><rect fill="#F1F1F1" height="2" style="stroke:#181818;stroke-width:0.5;" width="4" x="420.5" y="297.2969"/><rect fill="#F1F1F1" height="2" style="stroke:#181818;stroke-width:0.5;" width="4" x="420.5" y="301.2969"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="141" x="276.5" y="323.292">External Integrations</text></g><!--MD5=[ae303f1534b9d70e8c307330b075bcd2]
+link User Interface to Shopping List Manager--><g id="link_User Interface_Shopping List Manager"><path d="M234,124.3569 C234,140.3469 234,162.0769 234,179.1369 " fill="none" id="User Interface-to-Shopping List Manager" style="stroke:#181818;stroke-width:1.0;"/><polygon fill="#181818" points="234,184.2769,238,175.2769,234,179.2769,230,175.2769,234,184.2769" style="stroke:#181818;stroke-width:1.0;"/></g><!--MD5=[7f47cfd4c8d1c7bd77356ffcaf03f356]
+link Shopping List Manager to Local Storage/Database--><g id="link_Shopping List Manager_Local Storage/Database"><path d="M210.67,230.3569 C193.32,246.7569 169.58,269.2069 151.33,286.4569 " fill="none" id="Shopping List Manager-to-Local Storage/Database" style="stroke:#181818;stroke-width:1.0;"/><polygon fill="#181818" points="147.29,290.2769,156.5789,287.0032,150.9243,286.8429,151.0845,281.1883,147.29,290.2769" style="stroke:#181818;stroke-width:1.0;"/></g><!--MD5=[1b98cfef6c16b75f269754bfe98b6e0b]
+link Shopping List Manager to External Integrations--><g id="link_Shopping List Manager_External Integrations"><path d="M259.02,230.3569 C277.8,246.8969 303.53,269.5769 323.17,286.8869 " fill="none" id="Shopping List Manager-to-External Integrations" style="stroke:#181818;stroke-width:1.0;"/><polygon fill="#181818" points="327.01,290.2769,322.9238,281.3157,323.2667,286.9622,317.6202,287.3051,327.01,290.2769" style="stroke:#181818;stroke-width:1.0;"/></g><!--MD5=[f93fd73a077970a227f41018d9db6fe4]
+@startuml
+title : Component Diagram
+
+package "Mobile App" {
+  [User Interface]
+  [Shopping List Manager]
+  [Local Storage/Database]
+  [External Integrations]
+
+  [User Interface] - -> [Shopping List Manager]
+  [Shopping List Manager] - -> [Local Storage/Database]
+  [Shopping List Manager] - -> [External Integrations]
+}
+@enduml
+
+PlantUML version 1.2022.7(Mon Aug 22 17:01:30 UTC 2022)
+(GPL source distribution)
+Java Runtime: OpenJDK Runtime Environment
+JVM: OpenJDK 64-Bit Server VM
+Default Encoding: UTF-8
+Language: en
+Country: null
+--></g></svg>

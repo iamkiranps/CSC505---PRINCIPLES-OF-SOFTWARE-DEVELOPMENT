@@ -1,0 +1,32 @@
+@startuml
+
+title Sequence Diagram
+
+actor User as "User"
+participant "Home Screen (Page 1)" as HomeScreen
+participant "Shopping List Overview (Page 2)" as ShoppingListOverview
+participant "Shopping List Details (Page 3)" as ShoppingListDetails
+participant "Add/Edit Item (Page 4)" as AddEditItem
+participant "Search Item (Page 5)" as SearchItem
+participant "Settings (Page 6)" as Settings
+participant "About Page (Optional) (Page 7)" as AboutPage
+
+User -> HomeScreen: Opens app
+
+User -> HomeScreen: View existing\nshopping lists\nor create new one
+
+HomeScreen --> ShoppingListOverview: View existing\nshopping lists
+
+ShoppingListOverview --> ShoppingListDetails: Select specific list
+
+ShoppingListDetails --> AddEditItem: Add new item\nor edit existing item
+
+ShoppingListDetails --> SearchItem: Select item to\nsearch in shopping app/sites
+
+SearchItem --> ExternalShoppingApp: Redirects to\nselected app/site
+
+User --> Settings: Access app settings
+
+User --> AboutPage: Access about page (optional)
+
+@enduml

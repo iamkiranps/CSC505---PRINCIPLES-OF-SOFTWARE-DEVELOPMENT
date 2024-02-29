@@ -1,0 +1,14 @@
+@startuml
+title : Component Diagram
+
+package "Mobile App" {
+  [User Interface]
+  [Shopping List Manager]
+  [Local Storage/Database]
+  [External Integrations]
+
+  [User Interface] --> [Shopping List Manager]
+  [Shopping List Manager] --> [Local Storage/Database]
+  [Shopping List Manager] --> [External Integrations]
+}
+@enduml
