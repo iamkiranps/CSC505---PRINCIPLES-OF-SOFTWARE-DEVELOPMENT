@@ -1,0 +1,72 @@
+@startuml
+
+title Common Personality Traits
+
+class Employee {
+    - name: String
+    - employeeID: String
+    - department: String
+}
+
+class SoftwareDeveloper {
+    - problemSolvingSkill: ProblemSolvingSkill
+    - resilienceAndAdaptability: ResilienceAndAdaptability
+    - goodTeamPlayer: GoodTeamPlayer
+}
+
+class ProblemSolvingSkill {
+    - analyticalThinking: String /'The ability to break down complex problems into smaller, manageable components for analysis.'/
+    - criticalReasoning: String /'The capacity to evaluate information, arguments, and evidence systematically to make reasoned decisions.'/
+    - creativeProblemSolving: String /'The aptitude to explore innovative and unconventional solutions to challenges.'/
+    - algorithmicProficiency: String /'Proficiency in designing and implementing algorithms to solve problems efficiently.'/
+    - patternRecognition: String /'The capability to recognize patterns and trends within data or code, aiding in problem identification and solution.'/
+    - domainKnowledge: String /'Knowledge and understanding of the specific domain or industry in which the software engineer operates, facilitating problem-solving within that context.'/
+    - collaborativeSkills: String /'The ability to work effectively in teams, leveraging diverse perspectives and expertise to solve problems collectively.'/
+    - adaptability: String /'The readiness to adapt to changing circumstances and requirements, adjusting problem-solving strategies accordingly.'/
+    - persistence: String /'The determination to persevere through challenges and setbacks until a satisfactory solution is achieved.'/
+    - continuousLearning: String /'The commitment to ongoing learning and professional development, enhancing problem-solving abilities over time.'/
+  
+    + analyzeProblem(): void
+    + proposeSolution(): void
+    + evaluateSolution(): void  
+}
+
+class ResilienceAndAdaptability {
+    - learningFromFailures: String /'The capacity to reflect on setbacks and extract valuable lessons to inform future actions.'/
+    - flexibility: String /'The willingness to embrace change and adapt to evolving circumstances.'/
+    - emotionalIntelligence: String /' The skill to understand and manage one's own emotions and effectively navigate interpersonal relationships.'/
+    - openMindedness: String /'The receptivity to new ideas, perspectives, and feedback.'/
+    - stressManagement: String /'The ability to manage stress and maintain composure under pressure.'/
+    - resourcefulness: String /'The knack for finding creative solutions and leveraging available resources effectively.'/
+    - resilienceToCriticism: String /'The capability to receive constructive criticism positively and use it to improve.'/
+    - timeManagement: String /'The skill to prioritize tasks, manage time effectively, and meet deadlines.'/
+    - adaptabilityToTechnology: String /'The ability to quickly learn and adapt to new technologies, tools, and methodologies.'/
+  
+    + stayResilient(): void
+    + embraceChange(): void
+    + manageStress(): void  
+}
+
+class GoodTeamPlayer {
+    - communicationSkills: String /'The ability to express ideas clearly and listen actively, facilitating effective communication within the team.'/
+    - collaborativeSpirit: String /'A willingness to work cooperatively with team members, fostering a positive and supportive team environment.'/
+    - conflictResolution: String /'The skill to resolve conflicts constructively and find mutually acceptable solutions.'/
+    - empathy: String /'The capacity to understand and empathize with the perspectives and feelings of others.'/
+    - reliability: String /'Consistently delivering high-quality work and meeting commitments to the team and project.'/
+    - leadershipPotential: String /'Demonstrating leadership qualities such as initiative, accountability, and the ability to inspire and motivate others.'/
+    - adaptabilityToTeamDynamics: String /'The ability to adjust and contribute effectively within different team structures and dynamics.'/
+    - contributingToTeamSuccess: String /'A focus on collective goals and contributing positively to the team's success.'/
+    - respectForDiversity: String /'Valuing and respecting the diverse backgrounds, perspectives, and contributions of team members.'/
+    - constructiveFeedback: String /'Providing and receiving feedback in a constructive and respectful manner to facilitate continuous improvement.'/
+
+    + fosterPositiveEnvironment(): void
+    + resolveConflicts(): void
+    + leadByExample(): void  
+}
+
+Employee <|-- SoftwareDeveloper
+SoftwareDeveloper *-- ProblemSolvingSkill
+SoftwareDeveloper *-- ResilienceAndAdaptability
+SoftwareDeveloper *-- GoodTeamPlayer
+
+@enduml
