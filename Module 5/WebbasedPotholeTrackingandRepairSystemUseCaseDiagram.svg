@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" contentStyleType="text/css" height="449px" preserveAspectRatio="none" style="width:672px;height:449px;background:#FFFFFF;" version="1.1" viewBox="0 0 672 449" width="672px" zoomAndPan="magnify"><defs/><g><rect fill="none" height="42.5938" id="_title" style="stroke:none;stroke-width:1.0;" width="394" x="132" y="5"/><text fill="#000000" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="379" x="137" y="22.9951">Web-based Pothole Tracking and Repair System</text><text fill="#000000" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="143" x="257.5" y="39.292">Use Case Diagram</text><!--MD5=[7242a8645861bc73b79466f2fd694dea]
+cluster Pothole Tracking and Repair System--><g id="cluster_Pothole Tracking and Repair System"><rect fill="none" height="380" rx="2.5" ry="2.5" style="stroke:#181818;stroke-width:1.0;" width="301" x="365" y="60.5938"/><text fill="#000000" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="285" x="373" y="75.5889">Pothole Tracking and Repair System</text></g><g id="elem_UP1"><ellipse cx="515.2198" cy="112.8377" fill="#F1F1F1" rx="74.2198" ry="17.244" style="stroke:#181818;stroke-width:0.5;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="104" x="460.2198" y="116.5853">Report Pothole</text></g><g id="elem_UP2"><ellipse cx="515.1635" cy="332.7265" fill="#F1F1F1" rx="86.1635" ry="19.6327" style="stroke:#181818;stroke-width:0.5;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="133" x="448.6635" y="335.5731">Assign Repair Crew</text></g><g id="elem_UP3"><ellipse cx="515.1107" cy="405.6159" fill="#F1F1F1" rx="80.6107" ry="18.5221" style="stroke:#181818;stroke-width:0.5;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="120" x="453.6726" y="408.9285">Track Work Order</text></g><g id="elem_UP4"><ellipse cx="514.8536" cy="182.4645" fill="#F1F1F1" rx="77.3536" ry="17.8707" style="stroke:#181818;stroke-width:0.5;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="112" x="456.1333" y="186.1391">Record Damage</text></g><g id="elem_UP5"><ellipse cx="514.8872" cy="256.3712" fill="#F1F1F1" rx="91.8872" ry="20.7774" style="stroke:#181818;stroke-width:0.5;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="146" x="441.8872" y="259.2179">Query Pothole Status</text></g><!--MD5=[659b8b1ceb61a6b81a03e9899a798131]
+entity Citizen--><g id="elem_Citizen"><ellipse cx="93.5" cy="140.0938" fill="#F1F1F1" rx="8" ry="8" style="stroke:#181818;stroke-width:0.5;"/><path d="M93.5,148.0938 L93.5,175.0938 M80.5,156.0938 L106.5,156.0938 M93.5,175.0938 L80.5,190.0938 M93.5,175.0938 L106.5,190.0938 " fill="none" style="stroke:#181818;stroke-width:0.5;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="47" x="70" y="204.5889">Citizen</text></g><!--MD5=[372c47de6c45c81c2226d3db4d643665]
+entity PWD--><g id="elem_PWD"><ellipse cx="93.5" cy="259.0938" fill="#F1F1F1" rx="8" ry="8" style="stroke:#181818;stroke-width:0.5;"/><path d="M93.5,267.0938 L93.5,294.0938 M80.5,275.0938 L106.5,275.0938 M93.5,294.0938 L80.5,309.0938 M93.5,294.0938 L106.5,309.0938 " fill="none" style="stroke:#181818;stroke-width:0.5;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="175" x="6" y="323.5889">Public Works Department</text></g><!--MD5=[3620b8db962a0c9e2b118e4ffaea039f]
+entity RC--><g id="elem_RC"><ellipse cx="93.5" cy="376.0938" fill="#F1F1F1" rx="8" ry="8" style="stroke:#181818;stroke-width:0.5;"/><path d="M93.5,384.0938 L93.5,411.0938 M80.5,392.0938 L106.5,392.0938 M93.5,411.0938 L80.5,426.0938 M93.5,411.0938 L106.5,426.0938 " fill="none" style="stroke:#181818;stroke-width:0.5;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="83" x="52" y="440.5889">Repair Crew</text></g><!--MD5=[15f3c836fd0cb8a1390668c87d1633c2]
+link Citizen to UP1--><g id="link_Citizen_UP1"><path d="M117.24,165.9038 C140.71,162.1438 178.38,156.2138 211,151.5938 C290.81,140.2938 382.65,128.6638 444.1,121.0838 " fill="none" id="Citizen-to-UP1" style="stroke:#181818;stroke-width:1.0;"/><polygon fill="#181818" points="449.21,120.4538,439.7874,117.5876,444.2477,121.0669,440.7685,125.5272,449.21,120.4538" style="stroke:#181818;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="94" x="233" y="130.6606">Report Pothole</text></g><!--MD5=[a54a198ddc03e1ef18fdc7c0d965c178]
+link PWD to UP2--><g id="link_PWD_UP2"><path d="M181.28,312.1538 C191.25,314.2738 201.31,316.1638 211,317.5938 C282.08,328.0938 363.44,331.6638 423.95,332.7038 " fill="none" id="PWD-to-UP2" style="stroke:#181818;stroke-width:1.0;"/><polygon fill="#181818" points="429,332.7938,420.0701,328.6396,424.0007,332.7078,419.9326,336.6385,429,332.7938" style="stroke:#181818;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="121" x="219.5" y="313.6606">Assign Repair Crew</text></g><!--MD5=[52920c527479a3a4481eeb2e55a7afbc]
+link RC to UP3--><g id="link_RC_UP3"><path d="M135.1,405.5938 C202.71,405.5938 339.73,405.5938 429.14,405.5938 " fill="none" id="RC-to-UP3" style="stroke:#181818;stroke-width:1.0;"/><polygon fill="#181818" points="434.16,405.5938,425.16,401.5938,429.16,405.5938,425.16,409.5938,434.16,405.5938" style="stroke:#181818;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="109" x="225.5" y="401.6606">Track Work Order</text></g><!--MD5=[618be5031428f8fd3c7518f778c0546b]
+link Citizen to UP4--><g id="link_Citizen_UP4"><path d="M117.05,170.2938 C175.57,172.1038 334.52,177.0338 432.61,180.0738 " fill="none" id="Citizen-to-UP4" style="stroke:#181818;stroke-width:1.0;"/><polygon fill="#181818" points="437.82,180.2338,428.9505,175.9522,432.8225,180.0762,428.6985,183.9482,437.82,180.2338" style="stroke:#181818;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="103" x="228.5" y="169.6606">Record Damage</text></g><!--MD5=[5540d42d7dd014f4f0f8ddcad90c53a3]
+link Citizen to UP5--><g id="link_Citizen_UP5"><path d="M117.1,176.7138 C140.44,183.9038 178.02,195.0038 211,202.5938 C285.45,219.7238 371.26,234.5638 432.51,244.3338 " fill="none" id="Citizen-to-UP5" style="stroke:#181818;stroke-width:1.0;"/><polygon fill="#181818" points="437.62,245.1438,429.362,239.7767,432.6824,244.3566,428.1025,247.677,437.62,245.1438" style="stroke:#181818;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="136" x="212" y="198.6606">Query Pothole Status</text></g><!--MD5=[5c2a39c4f52b7465940c1d79cd44f279]
+link PWD to UP5--><g id="link_PWD_UP5"><path d="M181.27,291.5938 C230.56,292.3837 293.35,291.8338 349,286.5938 C380.24,283.6538 414.42,277.8738 443.52,272.1638 " fill="none" id="PWD-to-UP5" style="stroke:#181818;stroke-width:1.0;"/><polygon fill="#181818" points="448.52,271.1738,438.9152,268.995,443.6149,272.1434,440.4665,276.8431,448.52,271.1738" style="stroke:#181818;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="136" x="212" y="282.6606">Query Pothole Status</text></g><!--MD5=[e9015766c251358bab4cc2392da5247a]
+@startuml
+title Web-based Pothole Tracking and Repair System \nUse Case Diagram
+
+left to right direction
+
+actor Citizen as "Citizen"
+actor "Public Works Department" as PWD
+actor "Repair Crew" as RC
+
+rectangle "Pothole Tracking and Repair System" {
+    usecase "Report Pothole" as UP1
+    usecase "Assign Repair Crew" as UP2
+    usecase "Track Work Order" as UP3
+    usecase "Record Damage" as UP4
+    usecase "Query Pothole Status" as UP5
+}
+
+Citizen - -> UP1: Report Pothole
+PWD - -> UP2: Assign Repair Crew
+RC - -> UP3: Track Work Order
+Citizen - -> UP4: Record Damage
+Citizen - -> UP5: Query Pothole Status
+PWD - -> UP5: Query Pothole Status
+@enduml
+
+PlantUML version 1.2022.7(Mon Aug 22 17:01:30 UTC 2022)
+(GPL source distribution)
+Java Runtime: OpenJDK Runtime Environment
+JVM: OpenJDK 64-Bit Server VM
+Default Encoding: UTF-8
+Language: en
+Country: null
+--></g></svg>

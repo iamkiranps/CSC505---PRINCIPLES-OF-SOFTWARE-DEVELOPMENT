@@ -1,0 +1,71 @@
+@startuml
+
+title Web-based Pothole Tracking and Repair System \nUse Case Diagram
+
+left to right direction
+
+actor Citizen as "Citizen"
+actor "Public Works Department" as PWD
+actor "Repair Crew" as RC
+
+rectangle "Pothole Tracking and Repair System" {
+    usecase "Report Pothole" as UP1 
+  /'
+  1.1.	Citizen navigates to the PHTRS website through their desktop or mobile device.
+  1.2.	On the homepage, they locate the "Report a Pothole" button or link prominently displayed.
+  1.3.	Upon clicking the link, the website prompts the citizen to enter their location details, including street address, nearest intersection, or landmark.
+  1.4.	They provide a brief description of the pothole, specifying its severity using a predefined scale (e.g., 1 to 10).
+  1.5.	If available, citizens may upload images or videos of the pothole to provide additional context.
+  1.6.	After reviewing the information, they submit the report.
+  1.7.	The system generates a unique identifier for the reported pothole and stores it in the repair system database.
+  1.8.	Based on the severity and location, the system assigns a repair priority to the pothole.
+'/
+    usecase "Assign Repair Crew" as UP2
+  /'
+  2.1.	Public Works Department staff access the PHTRS system using their secure login credentials.
+  2.2.	They navigate to the "Assign Repair Crew" module, typically found in the administrative dashboard.
+  2.3.	The dashboard displays a list of reported potholes along with relevant details such as severity, location, and repair priority.
+  2.4.	Department staff analyze the data and prioritize potholes based on factors like traffic flow, road conditions, and community impact.
+  2.5.	Using an intuitive interface, they assign repair crews to potholes, considering crew availability and workload distribution.
+  2.6.	The system generates a unique repair crew identifier for each assigned crew and updates the repair status of the potholes accordingly.
+  '/
+    usecase "Track Work Order" as UP3
+  /'
+  3.1.	Repair crew members access the PHTRS system using their assigned login credentials, typically via a mobile device or tablet.
+  3.2.	They navigate to the "Work Orders" section of the mobile application, which provides a comprehensive list of assigned repair tasks.
+  3.3.	The interface displays detailed information about each pothole, including location, size, repair priority, and status (work in progress, repaired, temporary repair, not repaired).
+  3.4.	Repair crew members use the application to update the status of each pothole as they progress through the repair process.
+  3.5.	They document the number of hours spent on repairs, materials used, and any challenges encountered during the process.
+  3.6.	If additional resources or equipment are required, crew members can request them directly through the application.
+  3.7.	Once the repair is complete, they mark the pothole as "repaired" and submit a final report detailing the work performed.
+
+  '/
+    usecase "Record Damage" as UP4
+  /'
+  4.1.	Citizens access the PHTRS website or mobile application to report damage caused by potholes.
+  4.2.	They navigate to the "Report Damage" section, which provides a simple form to capture relevant information.
+  4.3.	Citizens enter their personal details, including name, address, contact number, and email address.
+  4.4.	They describe the type of damage incurred, such as vehicle damage, property damage, or personal injury, in detail.
+  4.5.	If applicable, citizens attach supporting documentation, such as photographs, repair invoices, or medical bills.
+  4.6.	After reviewing the information, they submit the damage report for review by the Public Works Department.
+  4.7.	The system logs the damage report in the database and assigns it a unique identifier for tracking and resolution.
+  '/
+    usecase "Query Pothole Status" as UP5
+  /'
+  5.1.	Users access the PHTRS website or mobile application and navigate to the "Check Pothole Status" section.
+  5.2.	They enter search criteria such as pothole identifier, street address, or repair status into the search bar.
+  5.3.	The system retrieves relevant data from the database and displays it in a user-friendly format.
+  5.4.	Citizens can view real-time updates on the repair progress, including repair crew assignments, repair status, and estimated completion dates.
+  5.5.	Public Works Department staff can access detailed reports and analytics to monitor overall repair performance, identify trends, and allocate resources effectively.
+  5.6.	Users can also subscribe to automated notifications to receive updates on specific potholes or repair activities.
+  '/
+}
+
+Citizen --> UP1: Report Pothole
+PWD --> UP2: Assign Repair Crew
+RC --> UP3: Track Work Order
+Citizen --> UP4: Record Damage
+Citizen --> UP5: Query Pothole Status
+PWD --> UP5: Query Pothole Status
+
+@enduml

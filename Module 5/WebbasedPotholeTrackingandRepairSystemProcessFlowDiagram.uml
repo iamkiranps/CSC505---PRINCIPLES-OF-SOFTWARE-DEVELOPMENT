@@ -1,0 +1,49 @@
+@startuml
+
+title Web-based Pothole Tracking and Repair System \nProcess Flow Diagram
+
+actor Citizen
+actor "Public Works Department" as PWD
+participant "PHTRS System" as PHTRS
+
+== Report Pothole ==
+
+Citizen -> PHTRS: Navigate to PHTRS website
+Citizen -> PHTRS: Click on "Report Pothole" button
+PHTRS -> Citizen: Display pothole reporting form
+Citizen -> PHTRS: Enter pothole details
+PHTRS -> PHTRS: Generate unique identifier\nand assign repair priority
+PHTRS --> Citizen: Confirmation of pothole report
+
+== Assign Repair Crew ==
+
+PWD -> PHTRS: Log in to PHTRS system
+PWD -> PHTRS: Access "Assign Repair Crew" dashboard
+PHTRS -> PWD: Display list of reported potholes
+PWD -> PHTRS: Prioritize and assign repair crews
+PHTRS --> PWD: Assignments confirmed
+
+== Track Work Order ==
+
+PWD -> PHTRS: Log in to PHTRS system
+PWD -> PHTRS: Access work order dashboard
+PHTRS -> PWD: Display list of assigned work orders
+PWD -> PHTRS: Update work order status
+PHTRS --> PWD: Status update confirmed
+
+== Record Damage ==
+
+Citizen -> PHTRS: Navigate to "Report Damage" section
+Citizen -> PHTRS: Enter personal information and damage details
+PHTRS --> Citizen: Confirmation of damage report
+
+== Query Pothole Status ==
+
+User -> PHTRS: Log in to PHTRS system
+User -> PHTRS: Access "Query Pothole Status" section
+PHTRS -> User: Display search criteria fields
+User -> PHTRS: Enter search criteria
+PHTRS --> User: Display pothole status information
+User -> PHTRS: Subscribe automated notification
+
+@enduml
