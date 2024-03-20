@@ -1,0 +1,25 @@
+@startuml
+
+title Stepwise Refinement Approach for Solving Transcendental Equation
+
+|User|
+  start
+  :Provide initial guess or approximation;
+|Initial Approximation|
+  :Define the transcendental equation;
+|Formulate Equation|
+  :Select root-finding method;
+|Choose Root-finding Method|
+  :Implement chosen method;
+|Implement Chosen Method|
+  :Test and validate solution;
+|Test and Validate|
+  if (Solution not satisfactory) then (yes)
+    :Refine approximation or choose different method;
+    stop
+  else (no)
+    :Document and optimize solution;
+    stop
+  endif
+
+@enduml
