@@ -1,0 +1,63 @@
+@startuml
+title ATM Transaction Sequence
+
+participant Customer
+participant ATM
+participant Bank
+
+/'*Insert Card'/
+Customer -> ATM: Insert Card /'Customer inserts the card into the ATM.'/
+
+/'*Enter PIN'/
+ATM -> Customer: Enter PIN /'ATM prompts the customer to enter their PIN.'/
+Customer -> ATM: {PIN} /'Customer enters their PIN.'/
+
+/'*Verify PIN'/
+ATM -> Bank: Verify PIN /'ATM sends the entered PIN to the bank for verification.'/
+Bank --> ATM: PIN Verification Result /'Bank verifies the PIN and sends the verification result to the ATM.'/
+
+/'*PIN Correct'/
+alt PIN Correct /'Check if PIN is correct.'/
+      
+    Customer -> ATM: Check Account Balance /'Customer selects to check the account balance.'/
+    alt Balance Enquiry
+    
+	/'*Check account balance'/
+    ATM -> Bank: Check Account Balance /'ATM sends a request to the bank to check the account balance.'/
+    Bank --> ATM: Account Balance /'Bank sends the account balance to the ATM.'/
+        alt Balance > 0 /'If the balance is greater than 0, the customer can proceed to withdraw money.'/
+            ATM --> Customer: Withdraw Money
+        else Balance = 0 /'If the balance is 0, the ATM informs the customer that the account is closed.'/
+            ATM --> Customer: Account Closed
+        end
+    end
+	
+	/'*Select withdraw'/
+    Customer -> ATM: Select Withdraw /'Customer selects to check the withdraw money.'/
+	/'*Withdrawal'/
+    alt Withdrawal
+    ATM -> Bank: Check Account Balance /'ATM sends a request to the bank to check the account balance.'/
+    Bank --> ATM: Account Balance /'Bank sends the account balance to the ATM.'/
+    Customer -> ATM : Enter amount to withdraw /'Customer enters the amount to withdraw.'/
+        alt Amount entered > Account Balance /'If the entered amount is less than the account balance, the money is dispensed.'/
+            ATM --> Customer: Dispatch Money
+        else Amount entered < Account Balance /'If the entered amount is greater than the account balance, the ATM informs the customer that the account is closed.'/
+            ATM --> Customer: Account Closed
+        end
+
+    end
+
+/'*PIN Incorrect'/
+else PIN Incorrect /'PIN is incorrect.'/
+    ATM -> Bank: Increment Attempts /'ATM increments the attempts counter and sends the count to the bank.'/
+    Bank --> ATM: Attempts Count /'Bank sends the attempts count to the ATM.'/
+
+    alt Attempts < Limit /'If the attempts are less than the limit, the customer can retry authentication.'/
+        ATM --> Customer: Retry Authentication
+    else Attempts >= Limit /'If the attempts exceed the limit, the ATM rejects the transaction.'/
+        ATM --> Customer: Rejected
+    end
+
+end
+
+@enduml

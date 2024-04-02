@@ -1,0 +1,52 @@
+@startuml
+title ATM Transaction State Diagram
+skinparam linetype polyline
+scale 500 width
+
+
+[*] --> InsertCard
+
+state InsertCard {
+    [*] --> EnterPIN
+    EnterPIN --> VerifyPIN: {PIN}
+    EnterPIN : ****
+}
+
+state VerifyPIN {
+    VerifyPIN --> CheckBalance: PIN Correct
+    VerifyPIN --> WithdrawMoney: PIN Correct
+    VerifyPIN --> RetryAuthentication: PIN Incorrect
+}
+
+state CheckBalance {
+    
+    CheckBalance --> AccountClosed: Balance = 0
+    CheckBalance --> WithdrawMoney: Account Balance ($)
+}
+
+state WithdrawMoney {
+    [*] --> EnterAmount
+    EnterAmount --> CheckBalance : Check Balance
+    WithdrawMoney --> DispatchMoney: Amount < Account Balance
+    WithdrawMoney --> AccountClosed: Amount > Account Balance
+    EnterAmount: $
+}
+
+
+state AccountClosed {
+    AccountClosed: Account Closed
+}
+
+state DispatchMoney {
+    DispatchMoney: Money Dispensed
+}
+
+state RetryAuthentication {
+    RetryAuthentication -left--> InsertCard: Attempts < Limit
+    RetryAuthentication --> Rejected: Attempts >= Limit
+    Rejected : Exit
+}
+[*] --> InsertCard
+AccountClosed --> [*]
+
+@enduml
